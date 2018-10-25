@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Shows Search</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="index.css" />
+    <script src="movies.js"></script>
+    <!-- <script src="shows.js"></script> -->
+</head>
+<body class="shows">
+    <nav class="navigation_items">
+            <ul >
+                <li>                
+                    <a href="index.html">Home</a>
+                </li>
+                <li>                
+                    <a href="movies.html">Movies</a>
+                </li>
+            </ul>
+    </nav>
+    <header>
+            <img id="tmdb_logo" src="https://www.themoviedb.org/assets/1/v4/logos/408x161-powered-by-rectangle-green-bb4301c10ddc749b4e79463811a68afebeae66ef43d17bcfd8ff0e60ded7ce99.png">
+    </header>
+
+    <div>
+        <!-- this is optional for now, but if i was to deploy this
+                i would want the user to have their own api key to tmdb
+                -->
+        <!-- <label>API Key: <input type="text"  id="api_key"></label> -->
+        <!-- <br/> -->
+        <label for="inputId" >Name of Show:</label>
+        <input type="text" id="inputId">
+        <br/>
+        <label>Total Results: 
+            <output id="total_results"></output>
+        </label>
+    </div>
+    <div class="shows_div">
+        <button  id="shows_button">Submit</button>
+        <table class="master_table">
+            <thead>
+                <tr id="table_row_columns">
+                    <th width="30px"> Poster</th>
+                    <th width="100px"> Name</th>
+                    <th width="50px">  Lang</th>
+                    <th width="100px"> Release Date</th>
+                </tr>
+            </thead>
+            <tbody id="table_body">
+                <tr>
+                </tr>
+
+            </tbody>
+
+        </table>
+        <label id="error_messages"></label>
+    </div>
+</body>
+</html>
