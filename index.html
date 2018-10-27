@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" media="screen" href="index.css" />
     <!-- <script src="main.js"></script> -->
-    <script src="movies.js"></script>
+    <script src="tmdb.js"></script>
 </head>
 <body class="home">
     <nav class="navigation_items">
@@ -21,8 +21,8 @@
         </ul>
     </nav>
     <div>
-        <button id="trending_button">Popular Movies</button>
-        <div id="show_trending">
+        <button id="movies_trending_button">Popular Movies</button>
+        <div id="movies_trending">
             <table class="master_table">
                     <thead>
                         <tr id="table_row_columns">
@@ -33,7 +33,27 @@
                             <!-- <th width="50px"> Trailer</th> -->
                         </tr>
                     </thead>
-                    <tbody id="trending_table_body">
+                    <tbody id="movies_trending_table_body">
+                        <tr>
+                        </tr>
+        
+                    </tbody>
+        
+            </table>
+        </div>
+        <button id="shows_trending_button">Popular Shows</button>
+        <div id="shows_trending">
+            <table class="master_table">
+                    <thead>
+                        <tr id="table_row_columns">
+                            <th> Poster</th>
+                            <th width="100px"> Name</th>
+                            <th width="50px">  Lang</th>
+                            <th width="100px"> Release Date</th>
+                            <!-- <th width="50px"> Trailer</th> -->
+                        </tr>
+                    </thead>
+                    <tbody id="shows_trending_table_body">
                         <tr>
                         </tr>
         

@@ -112,3 +112,13 @@ td,th{
 #movies_button{
     margin-left: 8px;
 }
+
+#show_trending{
+    overflow-y: auto;
+    height: 900px;
+    width: 500px;
+    
+}
+#shows_trending_button{
+    margin-top: 10px;
+}
