@@ -1,6 +1,9 @@
 body{
     background-color: beige;
 }
+.home{
+    background-image: url("./resources/spiderman.png")
+}
 label{
     color:lightgray;
 }
@@ -9,6 +12,7 @@ label{
     margin: 0;
     padding: 0;
     overflow: hidden;
+    
     /* background-color: #333; */
 
 }
@@ -16,6 +20,8 @@ label{
     float: left;
 }
 .navigation_items li a {
+    border-radius: 10px;
+    
     display: block;
     color: red;
     text-align: center;
@@ -24,7 +30,7 @@ label{
     
 }
 .navigation_items li a:hover{
-    background: red;
+    background:lightgray;
 }
 
 .master_table{
@@ -121,4 +127,7 @@ td,th{
 }
 #shows_trending_button{
     margin-top: 10px;
+}
+#inputId{
+    border-radius: 30px;
 }

@@ -97,7 +97,7 @@ document.addEventListener("DOMContentLoaded", event=>{
 // the results are based on the object instance and not the page
 class TMDB{
     // constructor, that the instance will be using
-    constructor(api_key, contentType, table, trending, ){
+    constructor(api_key, contentType, table, trending){
         // api key to be consumed
         this.api_key = api_key;
         // trending and table are used to displayed the data to the page, it does not matter what table is passed
