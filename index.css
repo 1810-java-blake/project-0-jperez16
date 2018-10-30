@@ -130,4 +130,16 @@ td,th{
 }
 #inputId{
     border-radius: 30px;
+    border-style: solid;
+    padding: 10px;
+}
+/* #about{
+    background-image: url("./resources/spoderman.jpg");
+    background-repeat: no-repeat;
+
+} */
+
+#about p{
+    font-size: 30px;
+    
 }
